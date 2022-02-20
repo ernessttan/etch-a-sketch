@@ -3,3 +3,7 @@
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
 }
+.grid-cell {
+    padding: 1em;
+    border: 1px solid black;
+}
