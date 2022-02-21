@@ -1,4 +1,25 @@
+/* Page Grid */
 #page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 0.5fr 2fr;
+    grid-template-areas:
+    "header"
+    "sketch";
+}
+
+#header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sketch Grid */
+#sketch-grid {
+    grid-area: sketch;
+    margin-right: 100px;
+    margin-left: 100px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
@@ -6,4 +27,7 @@
 .grid-cell {
     padding: 1em;
     border: 1px solid black;
+}
+.hover-active {
+    background-color: lightgrey;
 }
