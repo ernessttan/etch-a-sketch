@@ -8,17 +8,25 @@
 
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="page-grid">
+    <div class="container">
         <div id="header">
             <h1>Etch-a-Sketch</h1>
-            <button>Reset</button>
         </div>
-        <div id="sketch-grid">
+        <div id="sketch-container">
+            <div id="sketch-grid">
+            </div> 
         </div>
-    </div>
-    
+        <div class="menu-buttons">
+            <button id="reset-btn">CLEAR</button>
+            <button id="grid-btn">NEW GRID</button>
+        </div>
+    </div> 
 </body>
 
 </html>
