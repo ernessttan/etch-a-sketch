@@ -1,5 +1,5 @@
 # etch-a-sketch
-##Overview
+## Overview
 Browser version of the classic Etch a Sketch toy
 [Live Preview](https://ernesttan.com/etch-a-sketch/)
 ### Tools
