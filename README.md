@@ -1,6 +1,7 @@
 # etch-a-sketch
 ## Overview
 Browser version of the classic Etch a Sketch toy
+
 [Check it out Here](https://ernesttan.com/etch-a-sketch/)
 ### Tools
 - Visual Studio Code
